@@ -70,7 +70,7 @@ if test ! -n "$*"; then
 fi
 
 makexp=`dirname $0`/makexp_aix
-test -x "${makexp}" || makexp="/home/debian/Python-3.6.10/Modules/makexp_aix"
+test -x "${makexp}" || makexp="/home/debian/Python-ARM/Python-3.6.10/Modules/makexp_aix"
 
 # Check for existence of compiler.
 CC=$1; shift

@@ -433,7 +433,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/debian/Python-3.6.10'
+ac_pwd='/home/debian/Python-ARM/Python-3.6.10'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -655,7 +655,7 @@ S["LIBTOOL_CRUFT"]=""
 S["OTHER_LIBTOOL_OPT"]=""
 S["UNIVERSAL_ARCH_FLAGS"]=""
 S["LDFLAGS_NODIST"]=""
-S["CFLAGS_NODIST"]=" -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers -Wno-cast-function-type"
+S["CFLAGS_NODIST"]=" -std=c99 -Wextra -Wno-unused-result -Wno-unused-parameter -Wno-missing-field-initializers"
 S["BASECFLAGS"]=" -Wno-unused-result -Wsign-compare"
 S["CFLAGS_ALIASING"]=""
 S["OPT"]="-DNDEBUG -g -fwrapv -O3 -Wall"
@@ -881,7 +881,6 @@ D["HAVE_SYS_XATTR_H"]=" 1"
 D["HAVE_SYS_FILE_H"]=" 1"
 D["HAVE_SYS_IOCTL_H"]=" 1"
 D["HAVE_SYS_PARAM_H"]=" 1"
-D["HAVE_SYS_RANDOM_H"]=" 1"
 D["HAVE_SYS_SELECT_H"]=" 1"
 D["HAVE_SYS_SENDFILE_H"]=" 1"
 D["HAVE_SYS_SOCKET_H"]=" 1"
@@ -906,7 +905,6 @@ D["HAVE_ALLOCA_H"]=" 1"
 D["HAVE_ENDIAN_H"]=" 1"
 D["HAVE_SYS_SYSMACROS_H"]=" 1"
 D["HAVE_DIRENT_H"]=" 1"
-D["MAJOR_IN_SYSMACROS"]=" 1"
 D["HAVE_NET_IF_H"]=" 1"
 D["HAVE_LINUX_NETLINK_H"]=" 1"
 D["HAVE_LINUX_CAN_H"]=" 1"
@@ -974,7 +972,6 @@ D["HAVE_FUTIMESAT"]=" 1"
 D["HAVE_FUTIMENS"]=" 1"
 D["HAVE_FUTIMES"]=" 1"
 D["HAVE_GAI_STRERROR"]=" 1"
-D["HAVE_GETENTROPY"]=" 1"
 D["HAVE_GETGROUPLIST"]=" 1"
 D["HAVE_GETGROUPS"]=" 1"
 D["HAVE_GETLOGIN"]=" 1"
@@ -1207,7 +1204,6 @@ D["HAVE_STD_ATOMIC"]=" 1"
 D["HAVE_BUILTIN_ATOMIC"]=" 1"
 D["HAVE_DIRENT_D_TYPE"]=" 1"
 D["HAVE_GETRANDOM_SYSCALL"]=" 1"
-D["HAVE_GETRANDOM"]=" 1"
   for (key in D) D_is_set[key] = 1
   FS = ""
 }
